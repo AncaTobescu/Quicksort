@@ -28,7 +28,6 @@ void quicksort(std::vector<int>& arr, int left, int right) {
         quicksort(arr, pivot_index + 1, right);
     }
 }
-
 // Function to perform quicksort on the input vector and measure the execution time
 void performQuicksort(std::vector<int>& arr, const std::string& input_file_name, const std::string& output_file_name) {
     Timer timer;
